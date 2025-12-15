@@ -1,0 +1,79 @@
+.navbar-brand{
+    font-size: xx-large;
+}
+body{
+        font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://img.freepik.com/premium-vector/abstract-black-background_181182-256.jpg?semt=ais_se_enriched&w=740&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+.c{
+    color: bisque;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+.d{
+    color: bisque;
+    font-size: 16px;
+    padding-right: 50px;
+     text-align: justify;
+}
+.e{
+    padding-top: 150px;
+}
+.g{
+    text-align: center;
+    color: bisque;
+}
+.h{
+    color:bisque
+}
+.i{
+    text-align: justify;
+}
+.j{
+    text-align: center;
+    color: bisque;
+}
+.k{
+    background-color: white;
+    text-align: center;
+}
+.social-icons a {
+    margin: 0 10px;
+    font-size: 28px;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+/* Individual colors */
+.linkedin {
+    color: #0077B5;
+}
+
+.github {
+    color: #000;
+}
+
+.github:hover {
+    color: #333;
+}
+.insta-icon {
+    color: #E1306C;
+    font-size: 28px;
+    text-decoration: none;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.insta-icon:hover {
+    color: #C13584;
+    transform: scale(1.2);
+}

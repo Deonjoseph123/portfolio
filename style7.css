@@ -1,0 +1,115 @@
+.navbar-brand{
+    font-size: xx-large;
+}
+body{
+        font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://img.freepik.com/premium-vector/abstract-black-background_181182-256.jpg?semt=ais_se_enriched&w=740&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+.a{
+    color: bisque;
+    text-align: justify;
+}
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.contact {
+    padding: 50px;
+    text-align: center;
+}
+
+.contact h1 {
+    margin-bottom: 10px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.contact-form {
+    background: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.contact-form button:hover {
+    background: #0056b3;
+}
+
+.contact-info {
+    text-align: left;
+    max-width: 300px;
+}
+.contact{
+    color: bisque;
+}
+.k{
+    background-color: white;
+    text-align: center;
+}
+.social-icons a {
+    margin: 0 10px;
+    font-size: 28px;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+/* Individual colors */
+.linkedin {
+    color: #0077B5;
+}
+
+.github {
+    color: #000;
+}
+
+.github:hover {
+    color: #333;
+}
+.insta-icon {
+    color: #E1306C;
+    font-size: 28px;
+    text-decoration: none;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.insta-icon:hover {
+    color: #C13584;
+    transform: scale(1.2);
+}
